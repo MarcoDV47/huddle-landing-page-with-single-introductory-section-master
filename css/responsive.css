@@ -1,0 +1,21 @@
+@media(max-width: 495px) {
+
+    section {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: 400px;
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .icons {
+        position: static;
+        margin-top: 10%;
+    }
+}
