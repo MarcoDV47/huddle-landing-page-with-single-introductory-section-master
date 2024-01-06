@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 section {
@@ -41,7 +41,7 @@ main.text {
     font-size: 1.51em;
     letter-spacing: -.010em;
     line-height: 1.5em;
-    margin-bottom: 0.75em;
+    margin-bottom: 0.5em;
 }
 
 .text p {
@@ -63,7 +63,7 @@ main.text {
     border: none;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 0.59375em 4.575em;
+    padding: 0.75em 5.5em;
     margin-bottom: 5em;
 }
 
