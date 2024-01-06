@@ -42,7 +42,7 @@ I really enjoyed to tackle this challenge again, because I felt that I have impr
 
 ##### Old Version
 
-![Old-planning-screenshot](./report/Screenshot_1.png/)
+![Old-planning-screenshot](./report/old-layout(FLEX).png/)
 First i took a screenshot to understand the layout and decided to go with flex (maybe grid was better).
 I really struggled with this one and it's still far from perfect, but i decided to give it a go some other time.
 
