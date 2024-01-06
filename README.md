@@ -82,6 +82,7 @@ but it's still broken
 ##### ~~Attribution~~ REMOVED ATTRIBUTION
 
 ![Screenshoot of the attribution text placed in the middle of the page](./report/atribuicoes.png/)
+
 The p element was in the middle of the screen, and i don't know how to solve it
 My solution was to put the footer element inside the section of my code, it kinda solved the problem but there must be a better way
 
