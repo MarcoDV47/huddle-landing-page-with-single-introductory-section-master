@@ -1,6 +1,7 @@
 body {
     background: url(../images/bg-desktop.svg) no-repeat;
     background-color: var(--primary-color-1);
+    background-size: cover;
 }
 
 section {
