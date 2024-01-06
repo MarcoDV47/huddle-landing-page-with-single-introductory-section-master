@@ -1,86 +1,103 @@
 body {
+    background: url(../images/bg-mobile.svg) no-repeat;
     background-color: var(--primary-color-1);
-}
-section {
-    background: url(../images/bg-desktop.svg) no-repeat;
-    background-size: cover;
-    padding: 40px;
+    background-size: contain;
+    min-height: 100vh;
     display: flex;
-    height: 100vh;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    margin: 2em;
+    place-items: center;
 }
 
 .title {
-    margin-bottom: 50px;
+    place-self: start start;
+    margin-bottom: 3.5em;
 }
 
-.container {
-    display: flex;
-    gap: 50px;
-    color: white;
+.title img {
+    width: 8.125em;
+    margin-left: 0.15625em;
 }
 
-.text {
-    padding: 50px;
-    position: relative;
+img.mockup-img {
+    width: 18.8125em;
+    height: 13.4375em;
+    margin-bottom: 3.75em;
+}
+
+div.text {
+    text-align: center;
+    color: #fff;
 }
 
 .text h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    margin-bottom: 35px;
+    font-size: 1.51em;
+    letter-spacing: -.010em;
+    line-height: 1.5em;
+    margin-bottom: 0.75em;
 }
 
 .text p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
     font-weight: 300;
-    margin-bottom: 25px;
+    letter-spacing: -.0001em;
+    word-spacing: .12em;
+    line-height: 1.5em;
+    padding: 0 .1em;
+    margin-bottom: 1.5em;
 }
 
 .text button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    background-color: #fff;
     color: var(--primary-color-1);
-    padding: 15px 60px;
-    border-radius: 30px;
+    background-color: #fff;
     border: none;
+    border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0.59375em 4.575em;
+    margin-bottom: 5em;
 }
-.text button:hover{
+
+.text button:hover {
     background-color: var(--primary-color-2);
     color: #fff;
     cursor: pointer;
 }
 
-.icons {
-    position: absolute;
-    bottom: 0;
-    right: 5%;
+.icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625em;
 }
 
-.icons * {
+.icons ul li * {
     border: 1px solid #fff;
     border-radius: 50%;
-    padding: 8px;
-    margin: 0 5px;
+    padding: 0.4375em;
+    color: #fff;
+    font-size: .75em;
 }
-.icons *:hover{
+
+.icons *:hover {
     color: var(--primary-color-2);
     border: 1px solid var(--primary-color-2);
     cursor: pointer;
 }
-.icons :first-child {
-    padding: 8px 11px
+
+.icons ul li .fa-facebook-f {
+    padding: 7px 9px;
 }
 
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+.icons ul li .fa-instagram {
+    padding: 7px 9px;
 }

@@ -1,0 +1,48 @@
+.title img {
+    width: 13.125em;
+    margin-top: 1.2em;
+    margin-left: 2.3em;
+}
+
+img.mockup-img {
+    width: 43.4375em;
+    height: 30.9375em;
+    grid-area: 2 / 1;
+    margin: 1.6em 0 0 1.5em;
+}
+
+div.text {
+    text-align: start;
+    grid-area: 2 / 2 / 2 / 4;
+}
+
+.text h1 {
+    font-size: 2.45625em;
+    margin: 0 0 .45em .9em;
+}
+
+.text p {
+    font-size: 1.1em;
+    margin-bottom: 1.35em;
+}
+
+.text button {
+    padding: .85em 3.55em;
+    margin-bottom: 5em;
+}
+
+.icons ul {
+    gap: 0.9375em;
+}
+
+.icons ul li .fa-facebook-f {
+    font-size: 1.1em;
+}
+
+.icons ul li .fa-twitter {
+    font-size: 1.11em;
+}
+
+.icons ul li .fa-instagram {
+    font-size: 1.2em;
+}

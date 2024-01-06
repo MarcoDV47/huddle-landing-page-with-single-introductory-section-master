@@ -1,0 +1,76 @@
+body {
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: var(--primary-color-1);
+}
+
+section {
+    max-height: 93vh;
+    grid-template: 1fr 7fr 1fr / 6fr 3fr 2fr;
+}
+
+.title img {
+    width: 13.125em;
+    margin-top: 1.2em;
+    margin-left: 2.3em;
+}
+
+img.mockup-img {
+    width: 20em;
+    height: 15em;
+    grid-area: 2 / 1;
+    margin: 1.6em 0 0 1.5em;
+}
+
+div.text {
+    text-align: start;
+    grid-area: 2 / 2 / 2 / 4;
+}
+
+.text h1 {
+    letter-spacing: -.006em;
+    word-spacing: -.03125em;
+    margin: -.05em 0 1.125em .9em;
+    padding-right: 2em;
+}
+
+.text p {
+    word-spacing: .04em;
+    line-height: 1.5em;
+    letter-spacing: .014em;
+    margin-left: 2em;
+    padding-right: 4.5em;
+}
+
+.text button {
+    padding: 0.90625em 3.96875em;
+    font-size: 1.1em;
+    letter-spacing: -.002em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 2.1em;
+}
+
+.icons {
+    grid-area: 3 / 3;
+    place-self: center start;
+    margin-left: 1.6em;
+    margin-top: .5em;
+}
+
+.icons ul {
+    gap: .3em;
+}
+
+.icons ul li .fa-facebook-f {
+    padding: 9px 13px;
+    font-size: 1em;
+}
+
+.icons ul li .fa-twitter {
+    padding: 9px 10px;
+    font-size: 1em;
+}
+
+.icons ul li .fa-instagram {
+    padding: 8px 11px;
+    font-size: 1em;
+}
