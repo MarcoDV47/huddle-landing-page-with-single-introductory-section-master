@@ -19,6 +19,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ### The challenge
 
 ![Screenshot of the challenge](./design/desktop-design.jpg/)
+[Live Site URL](https://marcodv47.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 Users should be able to:
 
